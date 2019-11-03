@@ -1,0 +1,74 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+$tablet-min-width: 768px;
+
+@mixin m--tablet-and-bigger {
+  @media (min-width: #{$tablet-min-width}) {
+    @content;
+  }
+}
+
+body, html {
+  color: rgb(70, 70, 70);
+}
+
+.home {
+  &__container {
+    height: 80vh;
+    padding-top: 20px;
+
+    @include m--tablet-and-bigger {
+      display: flex;
+    }
+
+    &__col {
+      flex: 1;
+      text-align: center;
+      box-sizing: border-box;
+
+      @include m--tablet-and-bigger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &--left {
+        @include m--tablet-and-bigger {
+          text-align: right;
+          padding-right: 20px;
+        }
+      }
+
+      &--right {
+        @include m--tablet-and-bigger {
+          text-align: left;
+          padding-left: 20px;
+        }
+      }
+
+      &__logo {
+        width: 90%;
+        height: auto;
+        opacity: .95;
+      
+        @include m--tablet-and-bigger {
+          height: 300px;
+          width: 300px;
+        }
+      }
+
+      &__header {
+        font-size: 48px;
+        font-weight: 400;
+      }
+
+      &__lead {
+        font-size: 18px;
+      }
+    }
+  }
+}
