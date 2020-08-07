@@ -1,7 +1,7 @@
 ---
 layout: page
 title: From Connectomic to Task-evoked Fingerprints - Individualized Prediction of Task Contrasts from Resting-state Functional Connectivity
-permalink: /projects/brain-surf-cnn
+permalink: /brain-surf-cnn/
 ---
 
 {:.authors}
