@@ -22,7 +22,7 @@ title: Gia H Ngo
 email: ngohoanggia@gmail.com
 description: Build useful things
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ngohgia.github.io"
 github_username:  ngohgia
 
 # Build settings
@@ -49,3 +49,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+# Google Analytics
+google_analytics: UA-174903670-1

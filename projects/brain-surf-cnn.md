@@ -1,6 +1,7 @@
 ---
 layout: page
 title: From Connectomic to Task-evoked Fingerprints - Individualized Prediction of Task Contrasts from Resting-state Functional Connectivity
+description: BrainSurfCNN for individualized prediction of task contrasts from resting-state functional connectomic fingerprints
 image: /assets/images/brain_surf_cnn/overview.png
 permalink: /brain-surf-cnn/
 ---
