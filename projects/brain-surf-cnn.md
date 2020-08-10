@@ -11,6 +11,7 @@ permalink: /brain-surf-cnn/
 
 {:.links}
 [<a href="https://github.com/ngohgia/brain-surf-cnn" target="_blank">Code</a>]
+[<a href="https://arxiv.org/pdf/2008.02961.pdf" target="_blank">Paper</a>]
 
 ## Abstract
 
