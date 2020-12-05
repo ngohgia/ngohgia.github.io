@@ -25,6 +25,14 @@ body, html {
       display: flex;
     }
 
+    &__cv-icon {
+      fill: white;
+      background-color: #828282;
+      border-radius: 50%;
+      box-sizing: border-box;
+      padding: 3px 0 0 3px;
+    }
+
     &__col {
       flex: 1;
       text-align: center;
