@@ -2,7 +2,7 @@
 layout: page
 title: Web Interface for a Neural Network
 description: A simple web server to serve a neural network's prediction
-image: /assets/images/mnist-web/mnist_web_overview.png
+image: /assets/images/mnist_web/mnist_web_overview.png
 permalink: /mnist-web
 ---
 
