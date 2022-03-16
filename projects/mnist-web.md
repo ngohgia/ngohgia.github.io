@@ -2,7 +2,7 @@
 layout: page
 title: Web Interface for a Neural Network
 description: A simple web server to serve a neural network's prediction
-image: /assets/images/mnist_web/mnist_web_overview.png
+image: /assets/images/mnist_web/mnist_web_overview.jpeg
 permalink: /mnist-web
 ---
 
@@ -17,7 +17,7 @@ Here is what the final result looks like
 
 # Overview
 
-<img style="width: 100%" src="/assets/images/mnist_web/mnist_web_overview.png">
+<img style="width: 100%" src="/assets/images/mnist_web/mnist_web_overview.jpeg">
 
 There are three components of the system:
 1. **Model checkpoint:** the neural network's weights uploaded to Google Cloud Storage. The weights will be downloaded and loaded into the model.
