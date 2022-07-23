@@ -19,10 +19,12 @@ body, html {
 .home {
   &__container {
     height: 80vh;
-    padding-top: 20px;
+    padding-top: 10px;
 
-    @include m--tablet-and-bigger {
-      display: flex;
+    &__row {
+      @include m--tablet-and-bigger {
+        display: flex;
+      }
     }
 
     &__cv-icon {
@@ -42,6 +44,11 @@ body, html {
         display: flex;
         flex-direction: column;
         justify-content: center;
+      }
+
+      &--posts {
+        padding-top: 50px;
+        text-align: left;
       }
 
       &--left {
@@ -71,6 +78,11 @@ body, html {
 
       &__header {
         font-size: 48px;
+        font-weight: 400;
+      }
+
+      &__subheader {
+        font-size: 24px;
         font-weight: 400;
       }
 
