@@ -47,8 +47,13 @@ body, html {
       }
 
       &--posts {
+        display: block;
         padding-top: 50px;
         text-align: left;
+
+        a {
+          display: block;
+        }
       }
 
       &--left {
